@@ -74,7 +74,7 @@ Activate the virtual environment:
 Install required dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r ../requirements.txt
 ```
 
 #### Frontend (React)
