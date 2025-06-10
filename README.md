@@ -115,6 +115,16 @@ PROJECT_CONNECTION_STRING="your-azure-ai-connection-string"
 Ensure the `.env` file is excluded from Git by adding it to `.gitignore` to keep sensitive credentials secure.
 
 ---
+---
+> **⚠️ Prerequisite:**  
+> Make sure [Azure Functions Core Tools](https://learn.microsoft.com/azure/azure-functions/functions-run-local#install-the-azure-functions-core-tools) is installed before running the backend with `func start`.  
+> You can install it via npm:
+>
+> ```bash
+> npm install -g azure-functions-core-tools@4 --unsafe-perm true
+> ```
+> Or follow the [official instructions](https://learn.microsoft.com/azure/azure-functions/functions-run-local#install-the-azure-functions-core-tools) for your OS.
+---
 
 ### 4️⃣ Run the Services
 
